@@ -98,6 +98,7 @@ header .navbar .menu a{
     font-size: 18px;
     font-weight: 400;
     margin-right:44px;
+    transition:0.4s;
    
 }
 header .navbar .bears {
@@ -156,13 +157,19 @@ header .navbar .bars i{
 /* banner */
 
 .banner{
+    width:100%;
+    max-width: 1170px;
     display:flex;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(images/Group\ 39.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
+}
+.banner .container{
+    width:100%;
 }
 
 .banner .heading{
@@ -187,7 +194,7 @@ header .navbar .bars i{
     background: rgba(255, 255, 255, 0.30);
     gap:24px;
     padding:16px;
-    margin:64px 185px 0 185px
+    margin:64px 176px 0 176px
 }
 
 .banner .searching-container .div{
@@ -236,6 +243,7 @@ padding-right:35px;
         .banner .descaiption {
             font-size: 14px;
            line-height: 21px;
+           padding:0 16px;
 
         }
         .banner .searching-container {
@@ -249,6 +257,17 @@ padding-right:35px;
        
     }
 }
+@media only screen and (max-width:992px) {
+    .banner .heading {
+        font-size:32px;
+    }
+    .banner .searching-container {
+        margin:32px 24px;
+     
+}
+
+}
+
 /* end banner section */
 
 
@@ -311,9 +330,11 @@ tours */
     position: relative;
 }
 .destination .box-container p{
-    position: absolute;
-    top:50%;
     color:#fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
 }
 .destination .box-container{
     display:grid;
@@ -690,8 +711,8 @@ margin-bottom: 24px;
 .experiences .box-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
+    column-gap: 20px;
+    row-gap: 20px;
     /* align-items: center; */
 }
 /* start services section */
@@ -730,6 +751,8 @@ margin-bottom: 24px;
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 0.252px;
+    margin-bottom: 25px;
+    
 }
 
 
@@ -881,6 +904,10 @@ footer .icons ul {
 footer .icons ul li{
     list-style: none;
     padding-right: 24px;
+    transition:0.4s;
+}
+footer .icons ul li:hover{
+    color: #FF5400;
 }
 footer .horigontal {
 
@@ -907,7 +934,7 @@ margin-bottom:100px;
 text-align: center;
 }
 .credit span{
-color: #E02C6D;
+    color: #FF5400;
 
 }
 @media only screen and (max-width:768px) {
