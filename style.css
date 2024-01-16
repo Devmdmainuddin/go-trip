@@ -435,3 +435,234 @@ position: relative;
 }  
 
 /* destination */
+
+
+/* start place section  */
+.place .box-container{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+   gap:24px;
+}
+.place .box-container .box{
+    width:100%;
+}
+.place .box-container .btn{
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.place .box-container .box img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width:768px) {
+    .place .box-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+}  
+
+.place .box-container ul{
+    padding-left:20px;
+
+}
+.place .box-container ul li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin:24px 0 24px 0;
+}
+
+.place .box-container .content p{
+    margin:24px 0 24px 0;
+}
+
+/* start place section  */
+
+/* Choose-Us */
+
+.Choose-Us .box-container{
+    display:flex;
+    text-align: start;
+    gap:24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    }
+    .Choose-Us .box-container .box{
+    width: calc(100% - 24px/2);
+    }
+    
+    .Choose-Us  .midel-box{
+        text-align: start;
+        margin:0 auto;
+            width: 573px;
+            height: 284px;
+            border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        padding:32px;
+     }
+    
+    
+    
+     .Choose-Us .box-container .box-1{
+       
+        padding:32px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+     }
+     .Choose-Us .box-container .box-2{
+        padding:32px;
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+     }
+     .Choose-Us .box-container .box-1 img,
+     .Choose-Us .box-container .box-2 img{
+        margin-bottom:32px;
+     }
+    
+    .Choose-Us .midel-box img{
+        width: 64px;
+        height: 64px;
+        margin-bottom:32px;
+    }
+    
+    @media (max-width:768px) {
+        .Choose-Us .box-container{
+            flex-direction: column;
+            }
+            .Choose-Us .box-container .box{
+                width: 100%;
+                }
+            .Choose-Us  .midel-box{
+                width: 100%;
+                height: auto;
+            }
+    }
+    
+    /* Choose-Us */
+    
+    
+    
+    /* deals */
+    
+    .deals .container{
+        position: relative;
+    }
+    .deals .box_1{
+        height: 500px;
+        background-image: url(images/Group\ 39.png);
+        position: relative;
+        margin-top: 48px;
+        margin-bottom: 24px;
+        border-radius: 16px;
+    }
+    .deals .box_2{
+        height: 500px;
+        background-image: url(images/Group\ 40.png);
+        position: relative;
+        margin-bottom: 24px;
+        border-radius: 16px;
+    }
+    .deals .box_3{
+        height: 500px;
+        background-image: url(images/Group\ 39.png);
+        position: relative;
+        border-radius: 16px;
+    }
+    .deals .box_1 .content,
+    .deals .box_3 .content{
+        position: absolute;
+        top:56px;
+        right:56px;
+        left:535px;
+        bottom: 56px;
+    }
+    .deals .box_2 .content{
+        position: absolute;
+        top:56px;
+        left:56px;
+        right:535px;
+        bottom: 56px;
+    }
+    .deals .content ul{
+     display: flex;
+     
+    }
+    .deals .content ul li{
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        margin-right:24px;
+        list-style-type: none;
+       }
+    .deals .content ul li i{
+       margin-right:8px;
+       color:#FF5400;
+       }
+    .deals .content{
+        padding:50px;
+        border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    }
+    
+    .deals .content h3{ 
+        margin-top: 26px;
+    }
+    .deals .content p{ 
+        margin:16px 0 16px 0px
+    }
+    .deals .content .price{ 
+        color: #FF5400;
+    margin-bottom: 24px;
+    font-size: 20px;
+    
+    font-weight: 800;
+    
+    }
+    
+    .deals .content .btn{ 
+    padding:14px 24px;
+    }
+    .more-btn{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .more-btn .btn{
+       
+    }
+    
+    
+    @media only screen and (max-width:990px) {
+        .deals .box_1 .content,
+    .deals .box_3 .content{
+        position: absolute;
+        bottom:16px;
+        left:16px;
+        right:16px;
+        top:147px;
+    }
+    .deals .box_2 .content{
+        position: absolute;
+        top:147px;
+        bottom:16px;
+        left:16px;
+        right:16px;
+    }
+    .deals .content{
+       
+        padding:24px;
+      
+       
+    }
+    }
+    
+    /* deals */
+    
