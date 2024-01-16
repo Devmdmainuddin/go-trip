@@ -76,7 +76,7 @@ header .container,header,main{
     max-width: 1170px;
     margin:0 auto;
     padding: 1rem;
-    border:1px solid red;
+  
 }
 
 header .logo{
